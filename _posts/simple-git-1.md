@@ -1,7 +1,6 @@
 ---
 title: 'Building a simpler Git: Part 1'
 excerpt: 'Figuring things out'
-coverImage: '/assets/blog/hello-world/cover.jpg'
 date: '2023-10-08T11:00:00Z'
 author:
   name: Chaitanya Munukutla

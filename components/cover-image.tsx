@@ -1,6 +1,7 @@
 import cn from 'classnames'
 import Link from 'next/link'
 import Image from 'next/image'
+import { sr } from 'date-fns/locale'
 
 type Props = {
   title: string
@@ -9,6 +10,9 @@ type Props = {
 }
 
 const CoverImage = ({ title, src, slug }: Props) => {
+  if (!src) {
+    return null;
+  }
   const image = (
     <Image
       src={src}
